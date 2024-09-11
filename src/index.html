@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                O melhor aniversário é celebrado com as melhores pessoas. Espero você no meu dia! <br> <span
+                    id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Local</b>
+                        Rua da alegria, 2020 - Bairro das felicidades - Contagem/MG
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        01/10/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Vamos comemorar juntos</h2>
+                <p class="event__details__description">
+                    Chegou o momento de celebrar mais um ano de vida. Venha comemorar comigo! </p>
+            </div>
+            <img class="event__image" src="./images/Festa de boteco.jpg" alt="Boteco">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Sua presença no meu dia é tudo de bom</h2>
+                <p class="event__details__description">
+                    Meu dia tem tudo para ser incrível se você estiver ao meu lado, por isso, conto com sua presença!
+                </p>
+            </div>
+            <img class="event__image" src="./images/Boteco.jpg" alt="Festa de boteco">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Um brinde à minha vida</h2>
+                <p class="event__details__description">
+                    Vamos brindar à minha vida. Venha celebrar meu aniversário! </p>
+            </div>
+            <img class="event__image" src="./images/Boteco 2.jpg" alt="Tema boteco">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Envelhecer com as pessoas certas</h2>
+                <p class="event__details__description">
+                    Só vale a pena envelhecer na companhia das pessoas certas. Venha fazer parte da minha celebração!
+                </p>
+            </div>
+            <img class="event__image" src="./images/Boteco 3.jpg" alt="Comemoração">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
